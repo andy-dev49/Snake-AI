@@ -16,6 +16,23 @@ The agent learns how to maximize its score through trial and error, guided by a 
 
 ---
 
+### 📉 Training Evolution: Before vs. After
+
+Here is the actual representation of the Reinforcement Learning model in action, showcasing the transition from random exploration to optimal exploitation:
+
+#### 1. Initial Training (High Exploration / High Epsilon)
+In the first few games, the agent is completely "clueless", moving randomly, hitting walls, and dying instantly as it explores the environment.
+
+<img width="800" height="450" alt="snake noob" src="https://github.com/user-attachments/assets/a3fddced-a031-4421-9ca3-6af93639518e" />
+
+#### 2. Fully Trained Agent (High Exploitation / Mature Model)
+After numbers of games and learning through the dynamic reward system, the agent spins incredibly fast, avoids traps perfectly, and clears the board autonomously 
+
+<img width="800" height="450" alt="snake proo" src="https://github.com/user-attachments/assets/4090030a-f33f-4b97-8da9-0bed44e8c65b" />
+
+
+---
+
 ### 🚀 Key Custom Optimizations
 
 * **Dynamic Reward Shaping:** Implemented an explicit Euclidean distance calculation ($np.sqrt$) to reward the agent ($+1.0$) for approaching the food and penalize it ($-1.5$) for moving away. This dramatically speeds up the initial training phase (Exploration).
