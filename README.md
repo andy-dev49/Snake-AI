@@ -56,4 +56,4 @@ After numbers of games and learning through the dynamic reward system, the agent
 * `agent.py`: The core AI engine managing the QTrainer, state evaluation, memory tuple processing, and the main training loop.
 
 ---
-_Developed by Andy Builds as part of my Advanced AI & Reinforcement Learning journey._
+_Developed by Andy_dev as part of my Advanced AI & Reinforcement Learning journey._
